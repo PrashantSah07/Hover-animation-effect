@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto;
+    border: 8px solid black;
+    box-shadow: 0 0 15px rgb(0, 255, 38);
+    border-radius: 50px;
+    height: 40vh;
+    width: 60vw;
+}
+
+
+.reveal {
+    font-size: 7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 2px orangered;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.item {
+    box-shadow: 0 0 8px orangered;
+    border: 0px solid orangered;
+    border-width: 0 0 0 11px;
+    width: 28vw;
+    height: 20vh;
+    position: absolute;
+    transition: 1s;
+}
+
+.item:hover { 
+    box-shadow: 0 0 0px orangered;
+    width: 1vw;
+    transform: translate(33vh);
+    transition: 1s;
+    /* transition-timing-function: cubic-bezier(1, -0.39, 0, 1.25); */
+} 
